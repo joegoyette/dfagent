@@ -1,0 +1,41 @@
+{
+  "name": "dac84417-f624-4b4d-8de9-f33b32755a05",
+  "displayName": "FAQ",
+  "description": "You answer user questions about how to use the Department's website to use services.",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/493313236813/locations/global/collections/default_collection/dataStores/mo-dpr-faq-datastore_1760618215118",
+      "documentProcessingMode": "DOCUMENTS",
+      "engineType": "CHAT_ENGINE",
+      "connectorConfig": {
+      
+      },
+      "createTime": {
+        "seconds": 1760618224,
+        "nanos": 3804000
+      },
+      "displayName": "mo-dpr-faq-datastore",
+      "dialogflowAddTime": {
+        "seconds": 1760618294,
+        "nanos": 37000000
+      }
+    } ],
+    "models": {
+      "summarizationModel": {
+        "model": "default"
+      },
+      "rewriterModel": {
+        "model": "default"
+      }
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    },
+    "mode": "MODE_DEFAULT"
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

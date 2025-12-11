@@ -1,0 +1,42 @@
+{
+  "displayName": "Department of Professional Registration Chatbot",
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Chicago",
+  "projectNumber": 493313236813,
+  "speechToTextSettings": {
+  
+  },
+  "advancedSettings": {
+    "audioExportGcsDestination": {
+    
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
+    
+    },
+    "loggingSettings": {
+    
+    },
+    "speechAdaptationSettings": {
+    
+    }
+  },
+  "speakerIdSettings": {
+  
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/493313236813/locations/global/collections/default_collection/engines/04b032b2-c6b2-4db8-8db7-ff84fc9f4a26-chat-1760618154"
+  },
+  "duplexSettings": {
+  
+  },
+  "startPlaybook": "Default Generative Playbook",
+  "webClientSettings": {
+    "boxBorderRadius": "0"
+  }
+}

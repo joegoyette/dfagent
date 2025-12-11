@@ -1,0 +1,41 @@
+{
+  "name": "7f4d4a41-eb80-4b0b-b755-2d8734c6cbd9",
+  "displayName": "MSW",
+  "description": "You confirm and verify information about existing MSW licensees in the State of Missouri.",
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/493313236813/locations/global/collections/default_collection/dataStores/mo-dpr-msw-datastore_1760616428621",
+      "documentProcessingMode": "DOCUMENTS",
+      "engineType": "CHAT_ENGINE",
+      "connectorConfig": {
+      
+      },
+      "createTime": {
+        "seconds": 1760616433,
+        "nanos": 841318000
+      },
+      "displayName": "mo-dpr-msw-datastore",
+      "dialogflowAddTime": {
+        "seconds": 1760618153,
+        "nanos": 537000000
+      }
+    } ],
+    "models": {
+      "summarizationModel": {
+        "model": "default"
+      },
+      "rewriterModel": {
+        "model": "default"
+      }
+    },
+    "groundingSettings": {
+    
+    },
+    "payloadSettings": {
+    
+    },
+    "mode": "MODE_DEFAULT"
+  },
+  "toolType": "CUSTOMIZED_TOOL"
+}

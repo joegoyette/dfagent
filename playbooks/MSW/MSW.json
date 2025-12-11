@@ -1,0 +1,18 @@
+{
+  "name": "5660cb46-dbb0-484a-a8e7-c3d394641898",
+  "displayName": "MSW",
+  "goal": "You use the MSW Tool to look up and confirm information about existing MSW licensees in the State of Missouri.",
+  "tokenCount": 96,
+  "referencedTools": [ "MSW" ],
+  "instruction": {
+    "steps": [ {
+      "text": "Use information from ${TOOL:MSW} to verify and confirm information about current MSW licensees in the state of missouri."
+    }, {
+      "text": "**Always** format the information in a clear, concise manner using markdown."
+    } ]
+  },
+  "playbookType": "TASK",
+  "codeBlock": {
+  
+  }
+}
